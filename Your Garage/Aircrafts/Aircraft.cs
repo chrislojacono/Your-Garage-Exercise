@@ -6,11 +6,11 @@ namespace Your_Garage
 {
     class Aircraft : Vehicle
     {
-        public void Flying()
+        public virtual void Flying()
         {
             Console.WriteLine("Fly like a bird!");
         }
-        public void Landing()
+        public virtual void Landing()
         {
             Console.WriteLine("Everyone hold on, We are landing!");
         }
